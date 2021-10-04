@@ -188,10 +188,6 @@ body{
 
 
 
-#main {
-  margin-left: 330px;
-}
-
 @media (max-width: 992px) {
   #header {
       left: -330px;
@@ -215,31 +211,3 @@ body{
       font-size: 50%;
   }
 } 
-
-
-/*@media (max-width:990px){
-  html{
-      font-size: 55%;
-  }
-  #home{
-      padding:1rem 4rem;
-  }
-}
-
-@media (max-width:400px){
-  header{
-      width: 100vw;
-  }
-  .heading{
-      margin:0 3rem;
-  }
-  .about .row .counter .box{
-      width: 100%;
-  }
-  .education .box-container .box{
-      width:100%;
-  }
-  .contact .row form{
-      margin:3rem 0;
-  }
-}*/
