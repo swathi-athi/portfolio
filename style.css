@@ -1,0 +1,253 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #919395;
+}
+
+#header img{
+  width: 200px;
+  height: 240px;
+  border-radius: 60%;
+  border-style: solid;
+  border-width: 6px;
+  border-color: rgb(56, 55, 55);
+}
+
+#header p{
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.social-links i{
+  background: rgb(65, 60, 100);
+  color: white;
+  border-radius: 15px;
+}
+
+.social-links i:hover{
+  background: white;
+}
+
+.nav-link{
+  display: block;
+  text-align: center;
+  background: rgb(96, 96, 96);
+  border-radius: 20px;
+  width: 270px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  margin: 6px;
+}
+.nav-link:hover{
+  background: lightgray;
+}
+
+#header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 330px;
+  background: #212529;
+}
+
+.navbar-toggler{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 30px;
+  background: rgb(50, 52, 88);
+  cursor: pointer;
+  font-size: 10px;
+  transition: all 0.4s;
+  display: none;
+  line-height: 1;
+  text-align: right;
+  z-index: 992;
+}
+
+#main{
+  margin-left: 350px;
+}
+
+#home{
+  flex-flow: column;
+  margin-top: 220px;
+  margin-bottom: 225px;
+}
+
+#home h2{
+  font-size: 50px;
+  color: rgb(19, 17, 90);
+}
+
+#home h1{
+  font-size: 100px;
+  color: rgb(19, 17, 90);
+}
+
+#about{
+  align-items: center;
+  margin-bottom: 200px;
+  padding-top:100px;
+}
+
+.container h1{
+  text-align: center;
+  font-size: 50px;
+  color: rgb(19, 17, 90);
+  padding-bottom: 30px;
+}
+
+.info li{
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(20, 15, 47);
+}
+
+.description{
+  font-size: 20px;
+  color: rgb(18, 30, 68);
+}
+
+#experience{
+  margin-bottom: 60px;
+  padding-top: 60px;
+}
+
+.card{
+  height: 400px;
+  margin: 20px;
+}
+
+.details{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.form-style-6{
+  font: normal;
+  max-width: 735px;
+  margin: -21px auto;
+  padding: 48px;
+  margin-top: -57px;
+}
+
+.form-style-6 input[type="text"], .form-style-6 input[type="date"], .form-style-6 input[type="datetime"], .form-style-6 input[type="email"], .form-style-6 input[type="number"], .form-style-6 input[type="search"], .form-style-6 input[type="time"], .form-style-6 input[type="url"], .form-style-6 textarea, .form-style-6 select {
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color: rgb(16, 23, 157);
+  font: 95% Arial, Helvetica, sans-serif;
+}
+
+.form-style-6 input[type="text"]:focus, .form-style-6 input[type="date"]:focus, .form-style-6 input[type="datetime"]:focus, .form-style-6 input[type="email"]:focus, .form-style-6 input[type="number"]:focus, .form-style-6 input[type="search"]:focus, .form-style-6 input[type="time"]:focus, .form-style-6 input[type="url"]:focus, .form-style-6 textarea:focus, .form-style-6 select:focus {
+  box-shadow: 0 0 5px #0b0564;
+  padding: 3%;
+  border: 1px solid;
+} 
+
+.form-style-6 input[type="submit"], .form-style-6 input[type="button"]{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  padding: 3%;
+  background: #3b2df7;
+  border-bottom: 2px solid #0d0576d0;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;	
+  color: #fff;
+}
+.form-style-6 input[type="submit"]:hover, .form-style-6 input[type="button"]:hover{
+  background: #262354d0;
+}
+
+
+
+
+
+
+/* *{
+
+.navbar-toggler-active{
+  overflow: hidden;
+}
+
+.mobile-nav-active #header {
+  left: 0;
+}*/
+
+/* #main {
+  margin-left: 300px;
+}
+
+@media (max-width: 992px) {
+  #header {
+      left: -330px;
+  }
+}
+
+@media (max-width: 992px) {
+  #header {
+      margin-left: -120%;
+  }
+  .navbar-toggler {
+      display: block;
+  }
+  body{
+      padding: 0;
+  }
+}
+
+@media (max-width:768px){
+  html{
+      font-size: 50%;
+  }
+} */
+
+
+/*@media (max-width:990px){
+  html{
+      font-size: 55%;
+  }
+  #home{
+      padding:1rem 4rem;
+  }
+}
+
+@media (max-width:400px){
+  header{
+      width: 100vw;
+  }
+  .heading{
+      margin:0 3rem;
+  }
+  .about .row .counter .box{
+      width: 100%;
+  }
+  .education .box-container .box{
+      width:100%;
+  }
+  .contact .row form{
+      margin:3rem 0;
+  }
+}*/
