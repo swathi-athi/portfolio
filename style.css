@@ -186,7 +186,7 @@ body{
 
 
 
-/* *{
+*{
 
 .navbar-toggler-active{
   overflow: hidden;
@@ -194,7 +194,7 @@ body{
 
 .mobile-nav-active #header {
   left: 0;
-}*/
+
 
 /* #main {
   margin-left: 300px;
