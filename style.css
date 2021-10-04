@@ -186,18 +186,10 @@ body{
 
 
 
-*{
-
-.navbar-toggler-active{
-  overflow: hidden;
-}
-
-.mobile-nav-active #header {
-  left: 0;
 
 
-/* #main {
-  margin-left: 300px;
+#main {
+  margin-left: 330px;
 }
 
 @media (max-width: 992px) {
@@ -222,7 +214,7 @@ body{
   html{
       font-size: 50%;
   }
-} */
+} 
 
 
 /*@media (max-width:990px){
