@@ -1,19 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
 }
 
 body{
-  background-color: #919395;
+  background-color: #b0b9e7;
 }
 
 #header img{
   width: 200px;
   height: 240px;
-  border-radius: 60%;
+  border-radius: 50%;
   border-style: solid;
   border-width: 6px;
-  border-color: rgb(56, 55, 55);
+  border-color: rgba(79, 79, 83, 0.687);
 }
 
 #header p{
@@ -22,10 +25,10 @@ body{
   font-weight: 500;
 }
 
-.social-links i{
-  background: rgb(65, 60, 100);
+.social-links a{
+  background: rgb(76, 70, 120);
   color: white;
-  border-radius: 15px;
+  border-radius: 50%;
 }
 
 .social-links i:hover{
@@ -35,7 +38,7 @@ body{
 .nav-link{
   display: block;
   text-align: center;
-  background: rgb(96, 96, 96);
+  background: rgba(217, 224, 248, 0.456);
   border-radius: 20px;
   width: 270px;
   font-size: 20px;
@@ -48,6 +51,7 @@ body{
 }
 
 #header{
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
@@ -57,7 +61,7 @@ body{
   align-items: center;
   text-align: center;
   width: 330px;
-  background: #212529;
+  background: #01123b;
 }
 
 .navbar-toggler{
@@ -72,7 +76,7 @@ body{
   transition: all 0.4s;
   display: none;
   line-height: 1;
-  text-align: right;
+  text-align: center;
   z-index: 992;
 }
 
@@ -122,13 +126,19 @@ body{
 }
 
 #experience{
-  margin-bottom: 60px;
+  margin-bottom: 120px;
   padding-top: 60px;
 }
 
 .card{
-  height: 400px;
-  margin: 20px;
+  height: 390px;
+  width: 400px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.card img{
+  height: 90%;
 }
 
 .details{
@@ -183,27 +193,19 @@ body{
 
 
 
-
-
-
-
-
-
-@media (max-width: 992px) {
-  #header {
-      left: -330px;
-  }
-}
-
-@media (max-width: 992px) {
-  #header {
-      margin-left: -330px;
-  }
-  .navbar-toggler {
-      display: block;
-  }
+@media (max-width:992px){
   body{
-      padding: 0;
+    margin-left: -300px;
+  }
+  html{
+      font-size: 55%;
+      align-items: center;
+  }
+  #header{
+    left: -330px;
+  }
+  .navbar-toggler{
+    display: block;
   }
 }
 
@@ -211,4 +213,17 @@ body{
   html{
       font-size: 50%;
   }
-} 
+  
+}
+
+@media (max-width:400px){
+  .info{
+      width: 100%;
+  }
+  .experience .container .row{
+      width:100%;
+  }
+  header{
+      width: 100vw
+  }
+}
